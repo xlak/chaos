@@ -11,10 +11,15 @@ Hapara Highlights | ✔️
 Hapara Filter | ✔️
 Securly | 🧪
 GoGuardian | 🧪
-Lightspeed | ✖️
-LanSchool | ✖️
+Blocksi | 🧪
+Lightspeed | 🧪
+LanSchool | 🧪
 
-🧪 = Experimental
+✖ = Not supported (yet)
+
+🧪 = Untested / Not reliable
+
+✔️ = Tested and fully working
 
 # How does it work?
 The exploit works by confusing the Kami, EquatIO, or Assessment Assistant extensions on Chrome OS.
