@@ -7,18 +7,27 @@
       document.querySelector('.other').style.display = 'unset'
     })
   }
-  document.body.onclick = copy
+  document.querySelector('button').onclick = copy
 </script>
 
-<h3 class='main'>
-  <b>Chaos Exploit</b>
+<div class="main">
+  <h2>Chaos Exploit</h2>
   <br>
-  <small>The ONLY working bypass for Hapara Highlights and Hapara Filter</small>
+  <p>A full bypass method for Hapara Highlights and Hapara Filter</p>
+  <p><small>Also works on some other filters (Check github for list).</small></p>
+  <details>
+    <summary>Disclaimer</summary>
+    <small>
+      <p>It is <b>your</b> decision to bypass school monitoring. I am not responsible if you get in trouble for the misuse of technology if you're caught using this.</p>
+      <p>This exploit does not bypass network-wide filters. You will still need a proxy site or a VPN to unblock all websites on most school networks.</p>
+      <p>It may be suspicious if your device shows up as offline on the teacher dashboard. Use the Alphabetic Exploit instead during class.</p>
+    </small>
+  </details>
   <br><br>
-  Click this page to begin!
+  <button>Click here to begin!</button>
   <br><br>
   <br><br>
-</h3>
+<div>
 <h3 style='display: none' class='other'>
     <ul>
     <li>Step 1: Click on the URL bar and press Control+V and then Enter</li>
@@ -42,4 +51,12 @@
     .main {
       text-align: center;
     }
+  button {
+    border: 2px solid black;
+    color: black;
+    background: white;
+    font-size: larger;
+    border-radius: 40px;
+    padding: 12px;
+  }
 </style>
