@@ -3,11 +3,17 @@ This is a bypass method for certain web filters and monitoring software on schoo
 
 To use it, go to [xlak.github.io/chaos](https://xlak.github.io/chaos)
 
-# Not working?
-[Try This Instead](https://github.com/xlak/alphabetic)
+## Point-Blank Entrypoint
+This entrypoint is an implementation of [the Point-Blank exploit discovered by bypassi](https://blog.bypassi.com/_/point-blank/). It will work on managed Chromebooks and on non-Chrome OS devices.
 
-This exploit will ONLY work on Chrome OS devices that are logged into a managed account.
-If you're using another type of device (Windows, Mac) or an unmanaged Chromebook, there are (easier) working bypass methods that you can find elsewhere.
+## Inspect Entrypoint
+This entrypoint was discovered by me. It will ONLY work on Chrome OS devices that are logged into a managed account.
+It is also more complicated and tedious than the other entrypoint, and you should only use it if the other entrypoint doesn't work.
+
+# Not working?
+If you're using another type of device (Windows, Mac), there are (easier) working bypass methods that you can find elsewhere.
+
+Using a Chromebook? [Try This Instead](https://github.com/xlak/alphabetic)
 
 # Supported Web Filters
 
