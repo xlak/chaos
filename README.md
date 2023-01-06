@@ -3,11 +3,7 @@ This is a bypass method for certain web filters and monitoring software on schoo
 
 To use it, go to [xlak.github.io/chaos](https://xlak.github.io/chaos)
 
-## Point-Blank Entrypoint
-This entrypoint is an implementation of [the Point-Blank exploit discovered by bypassi](https://blog.bypassi.com/_/point-blank/). It will work on managed Chromebooks and on non-Chrome OS devices.
-
-## Inspect Entrypoint
-This entrypoint was discovered by me. It will ONLY work on Chrome OS devices that are logged into a managed account.
+This will ONLY work on Chrome OS devices that are logged into a managed account.
 It is also more complicated and tedious than the other entrypoint, and you should only use it if the other entrypoint doesn't work.
 
 # Not working?
